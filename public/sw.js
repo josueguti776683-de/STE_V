@@ -12,7 +12,14 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log('[Service Worker] Pre-caching Core Shell App assets...');
-      return cache.addAll(ASSETS_TO_PRECACHE);
+      // Robust caching: individually add resources to prevent any single failing request from blocking the entire service worker installation
+      return Promise.all(
+        ASSETS_TO_PRECACHE.map((url) => {
+          return cache.add(url).catch((err) => {
+            console.warn('[Service Worker] Failed to precache resource:', url, err);
+          });
+        })
+      );
     })
   );
   self.skipWaiting();
