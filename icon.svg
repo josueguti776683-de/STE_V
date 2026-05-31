@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#0f172a"/>
+  <!-- Letters TMA and STE_V in clean modern geometry -->
+  <text x="50%" y="240" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="115" fill="#ffffff" text-anchor="middle" letter-spacing="4">TMA</text>
+  <text x="50%" y="360" font-family="'JetBrains Mono', 'Fira Code', monospace" font-weight="700" font-size="44" fill="#fb923c" text-anchor="middle" letter-spacing="8">STE_V</text>
+  <!-- Subtle aesthetic lining under STE_V -->
+  <line x1="160" y1="410" x2="352" y2="410" stroke="#f43f5e" stroke-width="6" stroke-linecap="round" opacity="0.9" />
+</svg>

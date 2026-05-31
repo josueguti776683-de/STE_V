@@ -1,0 +1,6 @@
+{
+  "name": "Technical Maintenance Academy",
+  "description": "Educational platform for aviation maintenance technicians to learn technical English vocabulary with dynamic repetition and rigid penalties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
