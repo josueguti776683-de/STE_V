@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "Technical Maintenance Academy",
   "short_name": "TMA STE_V",
   "description": "Sistema de entrenamiento, entrenamiento forzado y memorización técnica para mecánicos de aviación.",
@@ -20,14 +21,14 @@
     },
     {
       "src": "/icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any maskable"
+      "type": "image/jpeg",
+      "sizes": "1024x1024",
+      "purpose": "any"
     },
     {
-      "src": "/icon.svg",
-      "type": "image/svg+xml",
-      "sizes": "512x512",
+      "src": "/icon-512.png",
+      "type": "image/jpeg",
+      "sizes": "1024x1024",
       "purpose": "maskable"
     }
   ]
